@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+  </head>
+  <body>
+    <h2>User Registration Form</h2>
+    <form>
+      <section>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label>First Name:</label><br />
+          <input type="text" name="first-name" /><br /><br />
+
+          <label>Last Name:</label><br />
+          <input type="text" name="last-name" /><br /><br />
+
+          <label>Date of Birth:</label><br />
+          <input type="date" name="dob" /><br />
+        </fieldset>
+      </section>
+      
+      <section>
+        <fieldset>
+          <legend>Contact Information</legend>
+        
+
+        <label>Email:</label><br />
+        <input type="text" name="email" /><br /><br />
+
+        <label>Phone Number:</label><br />
+        <input type="text" name="phone" /><br /><br />
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+        <legend>login details</legend>
+          <label>username:</label><br />
+        <input type="text" name="username" value="guest123" /><br /><br />
+
+        <label>Password:</label><br />
+        <input type="text" name="password" /><br /><br />
+        </fieldset>
+      </section>
+      <fieldset>
+        <legend>preferences</legend>
+          <label>
+    <input type="radio" name="gender" value="male"> Male
+  </label>
+  <label>
+    <input type="radio" name="gender" value="female"> Female
+  </label> <br>
+   <label>
+    <input type="checkbox" name="" value=""> subscribe to new channel
+  </label>
+
+      
+</fieldset>
+      <section>
+        <fieldset>
+         <legend>Additional Information</legend>
+          <label>Comments:</label><br />
+          <textarea name="" id="">Enter any comments here</textarea>
+          </fieldset>
+</section>
+        
+
+        
+            
+        <label for="country">Country</label>  
+        <select name="country">
+          <option value="pakistan">Pakistan</option>
+          <option value="usa">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option>
+          <option value="germany">Germany</option>
+          </fieldset>
+        </select>
+      </section>
+
+      <button type="button">Add button</button>
+      <button type="submit">Submit</button>
+
+
+    </form>
+  </body>
+</html>
